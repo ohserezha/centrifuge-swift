@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name                  = 'SwiftCentrifuge'
+    s.name                  = 'AltySwiftCentrifuge'
     s.module_name           = 'SwiftCentrifuge'
     s.swift_version         = '4.2'
     s.version               = '0.0.3'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
 
     s.source_files          = 'Sources/SwiftCentrifuge/*.swift'
-    s.source                = { :git => 'https://github.com/centrifugal/centrifuge-swift.git', :tag => s.version }
+    s.source                = { :git => 'https://github.com/ohserezha/centrifuge-swift.git', :tag => s.version }
 
     s.dependency 'SwiftProtobuf'
     s.dependency 'Starscream', '~> 3.1'
